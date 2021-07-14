@@ -1,15 +1,17 @@
 nav {
-    background-color: blue;
-    front-size: 20px;
-    color: white;
+    background: yellow;
+    background: linear-gradient(158deg, rgba(255,138,105,1) 0%, rgba(254,255,0,1) 36%, rgba(228,28,177,1) 78%);
+    font-size: 44px;
     width: 100%;
-    padding: 20px 10px;
+    padding-top: 5px;
+    padding-bottom: 15px;
     position: sticky;
     top: 0;
     left: 0;
     box-sizing: border-box;
     text-transform: uppercase;
     margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
 }
 
 body {
