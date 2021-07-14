@@ -5,6 +5,7 @@ nav {
     width: 100%;
     padding-top: 5px;
     padding-bottom: 15px;
+    height: 70px;
     position: sticky;
     top: 0;
     left: 0;
@@ -22,24 +23,31 @@ body {
 
 content {
     width: 100%;
+    color: #ccccff;
 }
 
 content > .side-panel {
     width: 30%;
+    height: 70px;
     float: left;
-    background-color: #aaf;
+    background-color: #0277BD;
 }
 
 content > .main-panel {
     width: 65%;
+    height: 70px;
     float: right;
-    background-color: #33a;
+    background-color: #29B6F6;
 }
 
 header {
     margin: 20px;
+    height: 70px;
+    background-color: #90CAF9;
 }
 
 footer {
     margin: 20px;
+    height: 70px;
+    background-color: #90CAF9;
 }
