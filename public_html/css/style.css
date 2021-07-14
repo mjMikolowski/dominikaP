@@ -51,3 +51,7 @@ footer {
     height: 70px;
     background-color: #90CAF9;
 }
+
+.cezarek > img {
+    width: 400px;
+}
