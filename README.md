@@ -28,6 +28,7 @@ Add new file register.html with basic HTML form which should have 3 elements:
 - confirm password input (password type)
 - email input (email type)
 - age input (number type with limit 18-100)
+- * gender (radio button)
 - submit button
 
 Customize style of the form - feel free to try another CSS properties like box-shadow, border, border-radius
