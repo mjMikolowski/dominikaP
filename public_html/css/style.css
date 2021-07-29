@@ -1,18 +1,9 @@
 nav {
-    background: yellow;
-    background: linear-gradient(158deg, rgba(255,138,105,1) 0%, rgba(254,255,0,1) 36%, rgba(228,28,177,1) 78%);
-    font-size: 44px;
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 15px;
-    height: 70px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    font-family: 'Roboto Slab', serif;
+       background-color: #666;
+       padding: 15px;
+       text-align: center;
+       font-size: 35px;
+       color: white;
 }
 
 body {
@@ -27,29 +18,33 @@ content {
 }
 
 content > .side-panel {
-    width: 30%;
+    width: 65%;
     height: 70px;
     float: left;
     background-color: #0277BD;
 }
 
 content > .main-panel {
-    width: 65%;
+    width: 30%;
     height: 70px;
     float: right;
     background-color: #29B6F6;
 }
 
 header {
-    margin: 20px;
-    height: 70px;
-    background-color: #90CAF9;
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
 }
 
 footer {
-    margin: 20px;
-    height: 70px;
-    background-color: #90CAF9;
+     background-color: #666;
+     padding: 15px;
+     text-align: center;
+     font-size: 35px;
+     color: white;
 }
 
 .cezarek > img {
