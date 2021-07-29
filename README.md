@@ -22,7 +22,7 @@ Add new file login.html with basic HTML form which should have 3 elements:
 Customize style of the form - feel free to try another CSS properties like box-shadow, border, border-radius
 
 # Task 4
-Add new file login.html with basic HTML form which should have 3 elements:
+Add new file register.html with basic HTML form which should have 3 elements:
 - username input (text type)
 - password input (password type)
 - confirm password input (password type)
