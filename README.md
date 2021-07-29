@@ -1,5 +1,5 @@
 # Homework
-(Please make all task in one separated branch - each task should have at least one commit with task number in message)
+(Please make all tasks in one separated branch - each task should have at least one commit with task number in message)
 
 # Task 1
 Add basic page layout same as on the image (http://ericahoover.com/bwm150/assignment3/images/figure01.png)
