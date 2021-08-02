@@ -32,3 +32,21 @@ content {
 footer {
     clear: both;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+
+}
+nav {
+background-color: #bbf;
+}
+
+
+ul> li {
+    flex:1;
+    background: blue;
+    margin: 10px;
+    cursor: pointer;
+}
