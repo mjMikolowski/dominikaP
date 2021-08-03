@@ -60,7 +60,7 @@ Each table should have those columns:
 In each file add the sane navigation as in index.html. Present actual state of application by change style of current navigation tab (e.g. Players in nav for players.html)
 
 # Task 10
-Link nav elements to responding html file (add <a> tag as parent of <li> tag)
+Link nav elements to responding html file (add "a" tag as parent of "li" tag)
 
 # Task 11
 Attach jquery.min file in each html header section - download from https://code.jquery.com/jquery-3.6.0.min.js
