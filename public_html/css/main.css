@@ -1,0 +1,14 @@
+body {
+    background: black;
+    margin: 0;
+    /* background: linear-gradient(320deg, rgba(201,80,149,1) 0%, rgba(209,172,211,0.7344071417629552) 100%); */
+}
+
+.main_div {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    opacity: 0.6;
+    width: 100vw; /* pusty div ustalający rozmiar strony na wymiary okna */
+    height: 100vh;
+}
