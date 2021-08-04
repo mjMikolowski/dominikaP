@@ -1,20 +1,32 @@
 body {
-    background: rgb(201,80,149);
-    background: linear-gradient(320deg, rgba(201,80,149,1) 0%, rgba(209,172,211,0.7344071417629552) 100%);
+    background: black;
+    margin: 0;
+    /* background: linear-gradient(320deg, rgba(201,80,149,1) 0%, rgba(209,172,211,0.7344071417629552) 100%); */
+}
+
+.main_div {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    opacity: 0.6;
+    width: 100vw; /* pusty div ustalający rozmiar strony na wymiary okna */
+    height: 100vh;
 }
 
 form {
-     background: rgb(212,81,161);
+    background: rgb(212,81,161);
     background: linear-gradient(103deg, rgba(212,81,161,1) 0%, rgba(255,212,244,1) 0%, rgba(209,160,204,1) 69%, rgba(210,139,193,1) 100%, rgba(199,80,201,1) 100%, rgba(209,172,211,0.7344071417629552) 100%);
     padding: 30px;
     width: 200px;
-    margin: 0 auto;
     margin-top: 50vh;
-    transform: translateY(-50%);
     border: 5px pink;
     border-radius: 5px;
     box-shadow: 10px 10px 10px 10px #d451a1;
-
+    font-family: 'Times New Roman', sans-serif;
+    position: absolute; /* ustawienie diva z pozycją absolutną - niezależną od reszty contentu strony */
+    left: 50%; /* przesunięcie lewego narożnika diva na środek  */
+    top: 0; /* przesunięcie górnego narożnika diva na górę strony */
+    transform: translateX(-50%) translateY(-50%); /* ustawienie na środku strony */
 }
 
 
@@ -23,18 +35,19 @@ input {
   margin-top: 10px;
   margin-bottom: 20px;
   box-sizing: border-box;
+  width: 100%;
 
 }
 
-input[type="number"]{
-width= 100%;
-
-
+input[type="number"] {
+    width: 60px;
 }
- input[type="radio"]{
-    margin= 3px;
-    width= 10%;
- }
+
+input[type="radio"] {
+    display: inline;
+    margin-top: 5px;
+    width: 10px;
+}
 
 input[type="submit"]{
     background-color: #a53860;
@@ -49,5 +62,14 @@ input[type="submit"]{
 input[type="submit"]:hover {
      opacity: 0.6;}
 
+.radio_input {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    width: 100%;
+    text-align: center;
+}
 
 
