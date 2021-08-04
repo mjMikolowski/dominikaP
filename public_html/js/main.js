@@ -34,4 +34,8 @@ $('document').ready(function(){ // metoda zabezpieczająca pełne załadowanie p
             $this.removeClass('error_input');
         }
     });
+
+    $('#active').click(function(e) {
+        e.preventDefault();
+    });
 });
