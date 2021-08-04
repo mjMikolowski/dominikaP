@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>register</title>
-    <link href="css/style_register.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
-    <div class="main_div">
-    </div>
+    <div class="main_div"></div>
     <form action="index.html" method="POST">
         <label for="username">Username</label>
-        <input type="text" name="username" placeholder="username">
+        <input id="username" type="text" name="username" placeholder="username">
         <label for="password">Password</label>
-        <input type="password" name="password" placeholder="password">
-        <input type="password" name="confirm password" id="Confirm_Password" placeholder="confirm password">
+        <input id="password" type="password" name="password" placeholder="password">
+        <input id="password2" type="password" name="confirm_password" id="Confirm_Password" placeholder="confirm password">
+        <div id="password_error" class="error"></div>
         <label for="email">E-mail</label>
         <input type="email" name="email" placeholder="email">
         <label for="age">Age</label>
